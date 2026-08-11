@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Metadados da página, trazendo a codificação para o idioma padrão
+     ajustes do tamanho da página, autor e outros dados, se necessário.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="nome do autor">
+    <title>Projeto How-to</title>
+</head>
+
+<!-- Corpo da página, com todas as divisões e estruturais da página -->
+<body>
+    <!-- Conteiner principal que abriga as demais tags semânticas, em vez
+     de usar divs -->
+    <main>
+        <h1>Estrutura do HTML</h1>
+        <!-- Representa uma seção, uma divisão do documento -->
+        <section>
+            <h2>Tag HTML</h2>
+            <p>O elemento **HTML <html> **(ou HTML root element) representa a raiz de um HTML ou XHTML documento. Todos
+                os outros elementos devem ser descendentes desse elemento.</p>
+            <img src="images/httmll.webp" width="30%" height="30% alt="Tag utilizada para começar">
+            <audio controls src="">Sem áudio</audio>
+            <video controls src="">Sem vídeo</video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/html">Veja mais</a>
+        </section>
+        
+        <section>
+            <!-- Tag de hierarquia de títulos de h1 (maior) para h6 (menor) -->
+            <h2>Tag Head</h2>
+            <!-- Tag de parágrafo, organizando o texto exibido na página -->
+            <p>O elemento HTML <head> providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para
+                    scripts e folhas de estilos. </p>
+            <!-- Tag de imagem, usando o source (origem), alt (traz um pouco de acessibilidade)
+                 utilizando os leitores de tela, title(título) para exibiro nome da imagem -->
+            <img src="images/hair.png" width="30%" height="30% alt="Simboliza um espaço de dados no html" title="Imagem">
+            <!-- Tag audio que recebe o source (origem) -->
+            <audio controls src="audio/TheZombies.mp3"></audio>
+            <!-- Tag video que recebe o source (origem), além de
+                 width (largura) e height (altura) em pixels(p)-->
+            <video controls src="video/DoomsDay.mp4" width="360"></video>
+            <!-- Tag a (âncora) que representa links para outras página ou arquivos,
+                 além das propriedades target (alvo)
+                 _blank (nova), _self(padrão), _parent (iframe interno) e _top (iframe) -->
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/head"
+                    target="_blank">Clique aqui</a>
+        </section>
+
+        <section>
+            <h2>Tag Body</h2>
+            <p>O elemento <body> do HTML representa o conteúdo de um documento HTML. 
+                É permitido apenas um <body> por documento. </p>
+            <img src="images/body.png" width="30%" height="30% alt="Representa o corpo da página">
+            <audio controls src=""></audio>
+            <video controls src=""></video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/body">Veja aqui</a>
+        </section>
+
+        <section>
+            <h2>Tag Main</h2>
+            <p>O elemento <main> define o conteúdo principal dentro do <body> em seu documento
+                ou aplicação. Entende-se como conteúdo principal aquele relacionado diretamente
+                com o tópico central da página ou com a funcionalidade central da aplicação. </p>
+            <img src="images/main.png" width="30%" height="30% alt="Representa um container abrigando os demais elementos">
+            <audio controls src=""></audio>
+            <video controls src=""></video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/main">Saiba mais</a>
+        </section>
+
+        <section>
+            <h2>Tag Section</h2>
+            <p>O elemento HTML <section> representa uma seção genérica contida em um documento HTML, 
+                geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.</p>
+            <img src="images/section.png" width="30%" height="30% alt="Representa as divisões de uma página">
+            <audio controls src=""></audio>
+            <video controls src=""></video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/section"
+                    target="_blank">Descubra mais</a>
+        </section>
+
+        <section>
+            <h2>Tag Audio</h2>
+            <p>O elemento audio é utilizado para embutir conteúdo de som em um documento HTML ou XHTML.
+                O elemento audio foi adicionado como parte do HTML5.</p>
+            <img src="images/audio.webp" width="35%" height="35%" alt="Tag utilizada para por audio na pagina">
+            <audio src=""></audio>
+            <video src=""></video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/audio"
+            target="_blank">Saiba mais</a>
+        </section>
+
+        <section>
+            <h2>Tag Video</h2>
+            <p>O elemento HTML video incorpora um reprodutor de mídia que suporta a reprodução de vídeo no documento. 
+                Você também pode usar video para conteúdo de áudio, mas o elemento audio pode proporcionar uma experiência
+                de usuário mais adequada.</p>
+            <img src="images/video.webp" width="30%" height="30% alt="Tag usada para colocar videos">
+            <audio src=""></audio>
+            <video src=""></video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/video"
+            target="_blank">Saiba mais</a>
+        </section>
+
+        <section>
+            <h2>Tag a</h2>
+            <p>O elemento a em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL.
+                 O conteúdo dentro de cada a precisará indicar o destino do link.</p>
+            <img src="images/taga.jpg" width="30%" height="30% alt="Tag utilizada para criar hiperligações">
+            <audio src=""></audio>
+            <video src=""></video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/a"
+            target="_blank">Saiba mais</a>
+        </section>
+
+        <section>
+            <h2>Tag HR</h2>
+            <p>O elemento HTML representa uma quebra temática entre elementos de nível de parágrafo:
+                 por exemplo, uma mudança de cena em uma história ou uma mudança de tópico dentro de uma seção.</p>
+            <img src="images/hr.png" width="30%" height="30% alt="Tag utilizada para quebra temática entre niveis de parágrafo">
+            <audio src=""></audio>
+            <video src=""></video>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/hr"
+            target="_blank">Saiba mais</a>
+        </section>
+
+        <section>
+            <h2>Tag style</h2>
+            <p>O elemento HTML style contém informações de estilo para um documento ou uma parte do documento.
+                 As informações de estilo específico estão contidas dentro deste elemento, geralmente no CSS.</p>
+            <img src="images/style.png" width="30%" height="30% alt="Tag usada para estilo para algum documento pu uma parte">
+            <audio src=""></audio>
+            <video src=""></video>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/style"
+            target="_blank">Saiba mais</a>
+        </section>
+    </main>
+</body>
+
+</html>
